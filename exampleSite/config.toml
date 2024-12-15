@@ -7,7 +7,7 @@ disablePathToLower    = true
 hasCJKLanguage        = true
 publishDir            = "public"				# 站点静态文件保存目录
 
-trailingSlash = true
+uglyURLs = true
 
 [params]
     author        = "wangyx"
