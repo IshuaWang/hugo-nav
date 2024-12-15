@@ -1,4 +1,4 @@
-baseURL               = "https://blog.wangyx.com/navs"
+baseURL               = "https://blog.wangyx.com/navs/"
 languageCode          = "zh-CN"
 title                 = "网址导航"
 theme                 = "hugo-nav"
