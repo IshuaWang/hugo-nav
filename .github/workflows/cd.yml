@@ -22,10 +22,6 @@ jobs:
 
       - name: Build Site
         run: |
-          pwd
-          ls
           cp -R exampleSite/* .
           hugo --themesDir ../ --baseURL https://blog.wangyx.com/navs/
-          ls
-          pwd
           npx halo-static-pages-deploy-cli deploy -e ${{ secrets.ENDPOINT }} -i ${{ secrets.ID }} -t ${{ secrets.PAT }} -f public
