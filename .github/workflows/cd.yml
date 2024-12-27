@@ -23,5 +23,5 @@ jobs:
       - name: Build Site
         run: |
           cp -R exampleSite/* .
-          hugo --themesDir ../ --baseURL https://blog.wangyx.com/navs/
+          hugo --gc --minify --themesDir ../ --baseURL https://blog.wangyx.com/navs/
           npx halo-static-pages-deploy-cli deploy -e ${{ secrets.ENDPOINT }} -i ${{ secrets.ID }} -t ${{ secrets.PAT }} -f public
