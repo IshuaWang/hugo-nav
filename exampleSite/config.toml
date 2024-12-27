@@ -27,10 +27,10 @@ uglyURLs = true
 
 [params.seo]    
     baiduhmid       = ''	# 百度统计 hm.src 的 ID
-    baiduSiteVer    = ''			# 百度HTML标签验证(baidu-site-verification)
-    tj51laid        = ''                        		# 51.LA 网站统计
+    baiduSiteVer    = ''	# 百度HTML标签验证(baidu-site-verification)
+    tj51laid        = ''    # 51.LA 网站统计
     tj51lack        = ''
-    GoogleAdsClient = ''					# Google AdSense 
+    GoogleAdsClient = ''	# Google AdSense 
 
 [params.qweather]
     key = ""
